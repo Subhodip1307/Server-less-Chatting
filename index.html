@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serverless Chat App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Serverless Chat App</h2>
+        <textarea id="localDescription" placeholder="Your SDP will appear here" readonly></textarea>
+        <button id="generateOffer">Generate Offer</button>
+        <button id="copyOffer">Copy Offer</button>
+        <textarea id="remoteDescription" placeholder="Paste remote SDP here"></textarea>
+        <button id="connect">Connect</button>
+        <div class="chat-box" id="chatBox"></div>
+        <textarea id="message" placeholder="Type your message"></textarea>
+        <button id="sendMessage">Send Message</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
